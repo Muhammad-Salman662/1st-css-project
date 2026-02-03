@@ -1,4 +1,4 @@
 # 1st-css-project
 This project uses html and css to create form and cards to display movies thumbnails and their short discription.
-br>
+<br>
 Author: Muhammad Salman
