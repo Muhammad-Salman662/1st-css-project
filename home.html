@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flex Layout</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <div class="container">
+  <header class="c">
+  <ul>
+    <li class="header">Header</a> </li>
+         <a href="/movies.html" class="home">Movies</a>  
+         <a href="/home.html" class="home">Home</a>  
+  </ul>
+</header>
+    <main>
+      <div class="sidebar">
+        <p>Sidabar</p>
+        <p>Main</p>
+      </div>
+      <div class="content">
+        <h2>Sign Up</h2>
+        <form action="form.php">
+          <label for="fullname">Full Name</label>
+          <input type="text" name="fullname" id="fullname" required>
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" required>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required>
+          <label for="confirmpassword">Confirm Password</label>
+          <input type="password" name="confirmpassword" id="confirmpassword" required>
+          <button type="submit">Sign Up</button>
+        </form>
+
+        <h2>Sign In</h2>
+        <form action="form.php">
+          <label for="emailaddress">Email Address</label>
+          <input type="email" name="emailaddress" id="emailaddress" required>
+          <label for="password2">Password</label>
+          <input type="password" name="password" id="password2" required>
+          <div class="sinin-footer">
+            <button type="submit">Sign In</button>
+            <span>Don't have an account? <a href="#">Sign up here</a></span>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>Footer</footer>
+  </div>
+</body>
+</html>
